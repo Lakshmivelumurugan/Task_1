@@ -1,0 +1,139 @@
+a=input("my name is:")
+b=input("my age is:")
+print(a)
+print(b)
+
+a=input()
+b=int(input())
+c=input()
+print("my name is:",a)
+print("my age is:",b)
+print("my address is:",c)
+
+a=int(input())
+b=int(input())
+c=int(input())
+d=print(a*b*c)
+e=print(a+b+c)
+f=d\e
+print(f)
+
+a=int(input("enter a value:"))
+b=int(input("enter b value:"))
+if(a>b):
+ print("a is greater")
+else:
+ print("b is lesser")
+print("win"=="win")
+a=input("enter the name:")
+if("meghna"=="died"):
+ print("surya meets priya")
+else:
+ print("surya weds meghna")
+
+a=int(input())
+b=int(input())
+c=int(input())
+d=int(input())
+e=int(input())
+f=a+b+c+d+e/5
+print(f)
+if(f<35):
+ print("additional class requried")
+else:
+ print("you are good to go")
+
+for i in range(0,11):
+ print(i,"*",2,"=",i*2
+ i in "apple":
+ print(i)
+
+a=int(input())
+b=int(input())
+for i in range(9,15):
+ print(i)
+count=0
+for i in range(1,11):
+ if(i%2==0):
+ count=count+1
+print(count) 
+sum=0
+
+for i in range(1,6):
+ sum=sum+i/5
+print(sum) 
+
+for i in range(0,7):
+ for j in range(0,3):
+ print(j,"apple")
+for i in range(1,5):
+ print()
+ for j in range(1,i+1):
+ print(i,end=" ")
+ 
+i=10
+while i<200:
+ print(i,end=",")
+ i=i+10
+i=10
+
+while (i>0):
+ print(i,end=" ")
+ i=i-1
+i=3
+
+fact=1
+while (i>0):
+ fact=fact*i
+ i=i-1
+print(fact) 
+
+a=[1,2,3,4,5]
+a.append(6)
+print(a)
+
+a=[1,2,3,4,5]
+a.pop()
+print(a)
+
+a=(1,2,3,4)
+b=list(a)
+print(b)
+
+a={1,2,3,4}
+a.pop()
+print(a)
+
+a={"a"=1,"b"=2}
+a.keys()
+print(a)
+
+def sum():
+ print("this is a test")
+ return sum()
+
+def painting():
+ print("printer")
+painting()
+
+def add():
+ a=int(input())
+ b=int(input())
+ print(a+b)
+print("ok")
+add()
+
+def oddeven():
+ a=int(input())
+ if(a%2==0):
+ print("even")
+ else:
+ print("odd")
+oddeven()
+
+def printrange():
+ a=int(input())
+ b=int(input())
+ for i in range(a,b):
+ print(i)
+printrange()
